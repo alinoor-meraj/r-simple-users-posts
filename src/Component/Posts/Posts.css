@@ -1,0 +1,55 @@
+.allPosts a:hover, .allPosts a:focus, .allPosts a:active, a:-webkit-any-link {
+    color: #000 !important;
+}
+.allPosts {
+    text-align: center;
+    padding: 20px;
+}
+.allPosts .singlePostWrap {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    text-align: left;
+    padding: 15px 20px;
+    margin: 10px;
+    border: 1px solid #add8e6;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 6px 1px rgb(173 216 230 / 80%);
+    min-height: 240px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.allPosts .singlePostWrap:hover {
+    box-shadow: 0px 0px 6px 1px deepskyblue;
+}
+h2.singlePostTitle {
+    margin: 0 0 10px;
+    line-height: 1.2em;
+    transition: all 0.3s ease-in-out;
+}
+.allPosts .singlePostWrap:hover h2.singlePostTitle{
+    color: deepskyblue;
+}
+p.singlePostContent {
+    margin: 5px 0 10px;
+}
+h2.singlePostTitle:first-letter {
+    text-transform: capitalize;
+}
+button.seeMoreBtn {
+    margin-top: 20px;
+    border: none;
+    padding: 10px 25px;
+    background-color: lightblue;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 30px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+button.seeMoreBtn:hover {
+    background-color: deepskyblue;
+    color: #fff;
+}
